@@ -20,6 +20,7 @@ overflowing red line)
 #include "time.h"           // to get and process the time
 
 
+// bla bla - just a test
  
 TFT_eSPI tft = TFT_eSPI();  // Invoke library, pins defined in User_Setup.h
 TFT_eSprite spr = TFT_eSprite(&tft);  // use sprites
