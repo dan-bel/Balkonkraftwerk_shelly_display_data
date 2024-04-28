@@ -1,0 +1,57 @@
+/*
+
+
+ambient backlight
+# gloal: the backlight is self-adjusting to ambient light
+ done - be able to control backlight with PWM
+ done -- use PWM to control backlight
+-- connect light sensor to board, measure light
+-- class for backlight 
+---- measure light
+---- adjust to it (map function?) slowly ... gradually every few sec
+
+
+
+
+display daily total in the screens
+done - see for each day (now, yesterday, ...) how much 
+done - total consuption
+done - total self consumption
+done - total eingespeist
+- to test
+- to make look good
+postponed - find cloud service where one can upload daily data, to have a record
+
+
+
+change fonts
+- good looking anti alsiasing 
+
+
+Use sprites
+- improve screen performance
+-- use sprites to draw, remove other funny changes
+
+
+
+CLEANUP. 
+TEST : - timeinfo not to be defined and called multiple times
+
+
+---------- DONE ------
+add more days for keeping track
+done - one can go backin time 1 week
+done -- for now and yesterday show this in the title, for the others the date
+postponed (cause annoying for testing) -- only allow to go back, if data exists
+
+
+control displays with capacitive touch to screws
+- be able to move screens right and left with screws
+-- connect scrwes to pin, read as capacitive touch
+-- alternative to touch screen, reaad ping ...
+
+Connect to wifi with WPS
+postponed (too lazy to get up to go to router) as an alternative to storeing wifi credentials
+
+
+*/
